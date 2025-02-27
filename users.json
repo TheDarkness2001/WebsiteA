@@ -1,0 +1,22 @@
+{
+    "user1": {
+        "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+        "image": "static/uploads/default1.png"
+    },
+    "user2": {
+        "password": "89e01536ac207279409d4de1e5253e01f4a1769e696db0d6062ca9b8f56767c8",
+        "image": "static/uploads/default2.png"
+    },
+    "user3": {
+        "password": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae",
+        "image": "static/uploads/default3.png"
+    },
+    "bob": {
+        "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "image": "static/uploads\\photo_2025-02-19_15-57-26.jpg"
+    },
+    "Malik": {
+        "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+        "image": "static/uploads\\photo_2025-02-19_16-13-34.jpg"
+    }
+}

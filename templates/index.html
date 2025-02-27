@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website A</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Welcome to Website A</h1>
+    <a href="{{ url_for('register') }}">Register</a> | 
+    <a href="{{ url_for('login') }}">Login</a>
+</body>
+</html>
