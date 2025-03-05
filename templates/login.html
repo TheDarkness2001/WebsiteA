@@ -6,11 +6,20 @@
 </head>
 <body>
     <h1>Login</h1>
+
     <form method="POST">
-        Username: <input type="text" name="username" required><br>
-        Password: <input type="password" name="password" required><br>
+        <!-- ✅ Hidden input for redirect URL -->
+        <input type="hidden" name="redirect" value="{{ request.args.get('redirect', 'http://127.0.0.1:5002/auth-callback') }}">
+
+        <label>Username:</label>
+        <input type="text" name="username" required><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" required><br>
+
         <input type="submit" value="Login">
     </form>
+
     <a href="{{ url_for('index') }}">Back to Home</a>
 </body>
 </html>
